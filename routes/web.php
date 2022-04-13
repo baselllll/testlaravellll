@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/home', function () {
-    echo "dfdf";
+    return view('welcome');
 });
